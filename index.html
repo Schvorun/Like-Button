@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Like button</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="uppernav">
+            <span>Network</span>
+        </nav>
+        <nav class="lowernav">
+            <span>Your Feed</span>
+        </nav>
+    </header>
+    <main class="maincontent">
+        <aside class="sideContent">
+            <section class="accountInfo">
+                <img src="user-circle.png" alt="profile picture" width="100px">
+                <p><a href="#">Add an avatar</a></p>
+                <span><strong>James Doe</strong></span>
+            </section>
+        </aside>
+        <main class="mainuserInfo">
+            <section class="userInfo">
+                <div class="topInfo">
+                    <p class="userName">Niel M</p>
+                    <div class="likes">
+                        <span id="nLikes1">9 like(s)</span>
+                        <button class="Ybutton" onmousedown="likebutton1()">Like</button>
+                    </div>
+                </div>
+                <div class="bottomInfo">
+                    <p class="info">I just setup this new discord bot, let me</p>
+                    <p>know what you all think. <a hr</p>
+                </div>
+            </section>
+            <section class="userInfo">
+                <div class="topInfo">
+                    <p class="userName">Nicole K</p>
+                    <div class="likes">
+                        <span id="nLikes2">12 like(s)</span>
+                        <button class="Ybutton" onmousedown="likebutton2()">Like</button>
+                    </div>
+                </div>
+                <div class="bottomInfo">
+                    <p class="info">Just finished my <a href="#">next comic</a>, check it out</p>
+                </div>
+            </section>
+            <section class="userInfo">
+                <div class="topInfo">
+                    <p class="userName">Jim R</p>
+                    <div class="likes">
+                        <span id="nLikes3">9 like(s)</span>
+                        <button class="Ybutton" onmousedown="likebutton3()">Like</button>
+                    </div>
+                </div>
+                <div class="bottomInfo">
+                    <p class="info">I cant stop listening to the new <a href="#">album</a>.</p>
+                    <p>Who else is liking it?</p>
+                </div>
+            </section>
+        </main>
+    </main>
+    <footer>
+        <script src="script.js"></script>
+    </footer>
+</body>
+</html>

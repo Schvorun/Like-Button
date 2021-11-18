@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    font-family: "open sans", sans-serif;
+    
+}
+header {
+    padding:0% 20%;
+    font-size: 30px ;
+    
+}
+.uppernav {
+    background-color: black;
+    color:darkslategrey;
+    padding: 10px;
+}
+.lowernav {
+    margin-top: 2%;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.maincontent {
+    display: flex;
+    padding: 2% 20%;
+    font-size: 30px;
+}
+
+.sideContent {
+    flex: 1;
+}
+.accountInfo {
+    border: 2px black solid;
+    margin-top: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.accountInfo a {
+    font-size: 25px;
+}
+
+.mainuserInfo {
+    flex: 3;
+    
+}
+
+.userInfo {
+    border: 2px black solid;
+    padding: 5px 25px;
+    margin: 15px 0px 15px 15px;
+    height: 30%;
+}
+
+.topInfo, .likes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.likes {
+    width: 36%;
+}
+
+.Ybutton {
+    background-color: rgb(216, 216, 5);
+    padding: 3px 22px;
+    font-size: 25px;
+    box-shadow: 3px 3px black;
+    border: darkslategrey solid 2px;
+}
